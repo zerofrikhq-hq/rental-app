@@ -1,0 +1,19 @@
+{
+  "name": "rentkitta",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev:mobile": "pnpm --filter @rentkitta/mobile start",
+    "dev:admin": "pnpm --filter @rentkitta/admin dev",
+    "start:mobile": "pnpm --filter @rentkitta/mobile start",
+    "start:admin": "pnpm --filter @rentkitta/admin dev",
+    "lint": "pnpm -r --if-present lint",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10",
+    "typescript": "~6.0.3"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+.expo
+.next
+dist
+pnpm-lock.yaml
+*.tsbuildinfo
+expo-env.d.ts
+next-env.d.ts

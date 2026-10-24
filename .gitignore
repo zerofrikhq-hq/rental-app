@@ -1,0 +1,23 @@
+node_modules/
+.pnpm-store/
+.expo/
+.next/
+dist/
+coverage/
+*.log
+*.tsbuildinfo
+.DS_Store
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Native and build outputs
+android/
+ios/
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision

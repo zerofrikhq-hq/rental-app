@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "RentKitta",
+    "slug": "rentkitta",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "rentkitta",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.zerofrik.rentkitta",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.zerofrik.rentkitta"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
